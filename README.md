@@ -69,3 +69,57 @@ Displays an error if a logged-in user tries to access a route not permitted for 
 
 ### 8. Invalid URL Handling (404 Page Not Found)
 ![404 Page](image-7.png)
+
+## How to Run the Project
+
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm (comes with Node.js)
+
+### Installation Steps
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/rohithprem18/student-portal
+```
+
+2. Navigate into the project directory:
+
+```bash
+cd student-portal
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Build for Production
+
+To create an optimized production build:
+
+```bash
+npm run build
+```
+
+---
+
+## Conclusion
+
+This project successfully demonstrates practical implementation of React Router v6 concepts including protected routes, nested routing, dynamic routing, and role-based access control in a structured and scalable manner.
